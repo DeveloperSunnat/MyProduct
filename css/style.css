@@ -865,15 +865,11 @@ footer .footer-text {
   #team .team-top-img {
     left: 0;
   }
-  #team .team-con {
-    text-align: center;
+  #team .top {
+    order: 2;
   }
-  #team .team-boxes {
-    display: flex;
-    justify-content: space-around;
-  }
-  #team .team-boxes.team-boxes.team-boxes-right:nth-child(2) {
-    flex-direction: row-reverse;
+  #team .bottom {
+    order: 3;
   }
   .team-boxes .team-box p::after {
     display: none;
